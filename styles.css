@@ -16,14 +16,14 @@ main{
 }
 
 .details{
-    max-width: 30%;
+    max-width: 50%;
     margin: auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
 .form{
-    max-width: 30%;
+    max-width: 50%;
     margin: auto;
     /* margin-bottom: 20px; */
     text-align: left;
