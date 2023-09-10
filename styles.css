@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: #183D3D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    margin: 20px;
+    text-align: center;
+}
+
+.details{
+    max-width: 30%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form{
+    max-width: 30%;
+    margin: auto;
+    /* margin-bottom: 20px; */
+    text-align: left;
+}
+
+.details p,h2{
+    margin-bottom: 5px;
+}
+
+span{
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+}
+
+.form label{
+    font-weight: bold;
+    font-size: 1.2rem;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px;  */
+}
+.form input[type="text"]{
+    width: 100%;
+    padding:5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+.form input[type="email"]{
+    width: 100%;
+    padding:5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form button{
+    background-color: #183D3D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: blue;
+}
+
+footer span{
+    color: red;
+}
